@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@400;500;700&family=Poppins:wght@300;400;600;700;800&display=swap');
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1124&q=100');
+    background-position: center;
+    background-size: cover; /* Cover the entire body */
+    font-family: 'Poppins', sans-serif; /* Specify a fallback font */
+    margin: 0;
+}
+
+/* Glassmorphism card effect */
+.container {
+    backdrop-filter: blur(9px) saturate(183%);
+    -webkit-backdrop-filter: blur(9px) saturate(183%);
+    background-color: rgba(17, 25, 40, 0.59);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 300px;
+    margin-top: 65px;
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    max-width: 300px;
+    margin:auto;
+    background: transparent; /* Set background to transparent */
+}
+
+input {
+    grid-column: span 4;
+    padding: 10px;
+    font-size: 1.5em;
+    background: none; /* Set input background to none */
+    border: none; /* Remove input border */
+    color: white; /* Set input text color */
+}
+
+button {
+    padding: 20px;
+    font-size: 1.2em;
+    background: rgba(255, 255, 255, 0.1); /* Adjust button background color */
+    border: none; /* Remove button border */
+    color: white; /* Set button text color */
+}
