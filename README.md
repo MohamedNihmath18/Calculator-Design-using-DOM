@@ -1,1 +1,1 @@
-Created a caluculator using Html, CSS , Javascript and using Glassmorphism Background design![Screenshot (7)](https://github.com/MohamedNihmath18/Calculator-Design-using-DOM/assets/106542888/aec1976d-75ce-4605-8a4f-a1b1a688fd23)
+<b>Created a caluculator using Html, CSS , Javascript and using Glassmorphism Background design</b>![Screenshot (7)](https://github.com/MohamedNihmath18/Calculator-Design-using-DOM/assets/106542888/aec1976d-75ce-4605-8a4f-a1b1a688fd23)
